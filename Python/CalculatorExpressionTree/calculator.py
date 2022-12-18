@@ -3,8 +3,8 @@
 # Student ID:1961827   
 # #Date:11/17/2022 
 from stack import Stack
-from tree import BinaryTree 
-from tree import ExpTree
+from treecalc import BinaryTree 
+from treecalc import ExpTree
 def isNumber(strVal):#A function to determine if the value is a number and not an operator
     possibleOps=["(",")","/","*","+","-","^"]
     isNum=True
